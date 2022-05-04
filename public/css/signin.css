@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
+}
+
+.form {
+    width: 90%;
+    height: 90vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+    padding: 1rem;
+}
+
+.top-image {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-image img {
+    width: 20rem;
+    border-radius: 50px;
+}
+
+.dados-login {
+    margin-bottom: 10px;
+}
+
+.dados-login label {
+    color: black;
+    display: block;
+}
+
+.dados-login >input {
+    border-radius: 5px;
+    outline: 0;
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+}
+
+.botao-login input{
+    background-color: rgb(18, 184, 250);
+    width: 250px;
+    height: 35px;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.botao-cadastro input {
+    background-color: rgb(18, 184, 250);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.botao-cadastro {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login {
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: rgb(236, 236, 236);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.top-login {
+    text-align: center;
+}
+
+.img-login {
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 1px 1px 20px black;
+}
